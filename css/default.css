@@ -37,7 +37,9 @@ main {
 video {
   position: fixed;
   /* height: 100%; */
-  height: 106%;
+  /* height: 106vh; */
+  min-width: 100vw;
+  min-height: 100vh;
   right: 0;
   bottom: 0; 
   background-size: cover;

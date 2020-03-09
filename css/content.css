@@ -242,4 +242,20 @@
     flex-direction: column;
   }
 
+  .portfolio-item{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .portfolio-item-left{
+    width: 40%;
+  }
+
+  .portfolio-item-right{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
  }

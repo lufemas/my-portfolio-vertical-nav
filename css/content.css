@@ -101,7 +101,7 @@
 
 .portfolio .fa-html5::after{
   content: "HTML";
-  color: #000;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   position: absolute;
@@ -118,7 +118,7 @@
 
 .portfolio .fa-css3-alt::after{
   content: "CSS";
-  color: #000;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   position: absolute;
@@ -135,7 +135,7 @@
 
 .portfolio .fa-js::after{
   content: "JavaScript";
-  color: #000;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   position: absolute;
@@ -235,16 +235,36 @@
 
  }
 
- @media screen and (min-width: 106rem){
+ @media screen and (min-width: 80rem){
 
   .portfolio .content {
     display: flex;
     flex-direction: column;
   }
 
+
   .portfolio-item{
+    padding: 0;
+    margin: 2rem;
     display: flex;
     flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+    color:  white;
+  }
+
+  .portfolio-item-header h2{
+    margin-bottom: 2rem;
+  }
+
+  .portfolio-item .portfolio-links{
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin: 0;
+  }
+
+  .portfolio-item .portfolio-link{
+    margin-right: 1rem;
   }
 
   .portfolio-item-left{
@@ -252,7 +272,7 @@
   }
 
   .portfolio-item-right{
-    padding: 2rem;
+    padding: 0 0 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
